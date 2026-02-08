@@ -1,0 +1,13 @@
+[package]
+name = "er-havok-aabb-debug"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+fromsoftware-shared = "=0.12.0"
+eldenring = "=0.12.0"
+glam = "=0.31.0"
+hudhook = "=0.8.3"
